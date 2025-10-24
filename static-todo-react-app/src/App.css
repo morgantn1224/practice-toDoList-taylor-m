@@ -1,0 +1,23 @@
+#page-layout {
+  text-align: center;
+  background-color: rgb(122, 227, 227);
+  width: 50%;
+  border: 2px solid black;
+  font-size: 12pt;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#header {
+  background-color: rgb(233, 199, 91);
+  padding: 2px;
+  border-bottom: 2px solid rgb(57, 197, 197);
+  
+}
+
+#task:hover{
+  color: orangered;
+}
+ul li::marker {
+  content: "☺";
+  color: rgb(181, 181, 47);
+}
